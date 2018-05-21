@@ -7,11 +7,17 @@
 
 volatile是java最轻量级的同步机制。
 
-**规则：**
+**特性：**
 
-*	线程可见性。当一个线程修改了volatile修饰的变量后，无论是否加锁，其它线程都可以立即看到最新的修改。
+*	可见性。变量读写直接操作主存而不是CPU Cache。当一个线程修改了volatile修饰的变量后，无论是否加锁，其它线程都可以立即看到最新的修改。
 *	禁止指令重排序优化。
+*	保证变量可见性，但无法保证原子性。也就是说非线程安全
 
+##### java内存模型：
+
+![image](img/16.png)
+
+[深入分析volatile的实现原理](https://mp.weixin.qq.com/s/mcR8_FHHGA2zb0aW1N02ag?from=groupmessage&isappinstalled=0)
 
 #### 2.synchronized介绍
 

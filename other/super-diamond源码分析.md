@@ -4,8 +4,8 @@
 
 #### 附录
 
+* [源码](https://github.com/melin/super-diamond)
 * [项目文档](https://www.oschina.net/p/super-diamond)
-* [源代码](https://github.com/melin/super-diamond)
 
 ---
 #### 源码笔记
@@ -19,7 +19,7 @@
         <constructor-arg index="1" value="${config.server.port}" />
         <constructor-arg index="2" value="应用名" />
         <constructor-arg index="3" value="${profiles.active}" />
-    </bean>
+</bean>
 ```
 
 初始化bbsWebPropertiesConfiguration时，与服务器建立连接com.github.diamond.client.PropertiesConfiguration.connectServer(String, int, String, String)

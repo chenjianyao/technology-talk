@@ -1,7 +1,7 @@
-### 快速排查线上问题
+## 快速排查线上问题
 ---
 
-#### 工作案例
+### 工作案例
 
 * [java服务器load飚高排查思路](java服务器load飚高排查思路.md)
 
@@ -11,8 +11,16 @@
 
 * [jvm堆参数调整](jvm堆参数调整.md)
 
+* [线上服务CPU100%问题快速定位](https://mp.weixin.qq.com/s/fU4i-jDVHgdJfRtWtXaxrQ)
 
-#### 帮助手册
+* [线上服务内存OOM问题定位三板斧](https://mp.weixin.qq.com/s/tVvqVVigmvzLfPjnt2oK0g)
+
+* [教你如何成为Java的OOM Killer](https://mp.weixin.qq.com/s/34GVlaYDOdY1OQ9eZs-iXg)
+
+* [java.lang.OutOfMemoryError 8种典型案例](https://github.com/cncounter/outofmemoryerror)
+
+
+### 帮助手册
 
 * [线上问题排查---JDK内置工具](http://blog.csdn.net/itomge/article/details/9904555)
 
@@ -25,3 +33,5 @@
 * [java系统诊断命令行工具--HouseMD](https://github.com/CSUG/HouseMD)
 
 * [java系统诊断命令行工具--anatomy](anatomy.md)
+
+* [一些常用的shell脚本](https://github.com/oldratlee/useful-scripts)
